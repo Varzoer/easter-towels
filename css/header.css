@@ -1,0 +1,43 @@
+header {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px -3px #b3b3b3;
+    padding: 10px 0px;
+}
+
+header .navbar-brand {
+    max-width: 250px;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: #2f4f4f;
+    font-weight: 500;
+}
+
+header .navbar-light .navbar-nav .active>.nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show>.nav-link,
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #d93025;
+}
+
+header span.dropdown-toggle {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 18px;
+}
+
+header .dropdown:hover span.dropdown-toggle {
+    color: #d09c00;
+}
+
+@media (max-width: 576px) {
+    header .navbar-brand {
+        width: 160px;
+    }
+}
