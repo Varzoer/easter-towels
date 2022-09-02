@@ -19,6 +19,51 @@
     color: #640ed3;
 }
 
-.header-icon {
+nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-div .nav-div-item {
+    display: inline-block;
+    color: var(--text-color-second);
+    padding: 10px, 20px;
+    text-decoration: none;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: var(--text-color-second);
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .nav-div {
+        display: none;
+    }
+
+    .nav-div.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
