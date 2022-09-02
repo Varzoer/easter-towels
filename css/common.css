@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color-hover: #4f65df;
+    --icon-color: #f0522a;
+    --main-text-color: rgb(37, 54, 74);
+    --background-color-wrap: rgba(37, 54, 74, 0.85);
+    --background-color-white: rgb(255, 255, 255);
+    --background-color-nav: #515c6d;
+    --text-color-second: white;
+}

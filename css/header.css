@@ -1,0 +1,24 @@
+.header-logo {
+    width: 135px;
+    height: 135px;
+}
+
+.header-nav {
+    background-color: var(--background-color-nav);
+}
+
+.fa-instagram {
+    color: #fc4213;
+}
+
+.fa-square-facebook {
+    color: #344fc9;
+}
+
+.fa-viber {
+    color: #640ed3;
+}
+
+.header-icon {
+    display: flex;
+}
