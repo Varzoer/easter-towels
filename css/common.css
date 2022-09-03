@@ -7,6 +7,7 @@
 }
 
 :root {
+    --hr-color: rgb(143, 166, 180);
     --link-hover :#88b7d1;
     --main-text-color: rgb(36, 38, 41);
     --background-color-wrap: rgba(37, 54, 74, 0.85);
