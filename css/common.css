@@ -7,11 +7,10 @@
 }
 
 :root {
-    --text-color-hover: #4f65df;
-    --icon-color: #f0522a;
-    --main-text-color: rgb(37, 54, 74);
+    --link-hover :#88b7d1;
+    --main-text-color: rgb(36, 38, 41);
     --background-color-wrap: rgba(37, 54, 74, 0.85);
-    --background-color-white: rgb(255, 255, 255);
+    --text-color: #231f20;
     --background-color-nav: #515c6d;
     --text-color-second: white;
 }

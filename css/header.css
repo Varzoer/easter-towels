@@ -1,10 +1,7 @@
-.header-logo {
-    width: 135px;
-    height: 135px;
-}
-
-.header-nav {
+header {
+    padding: 15px;
     background-color: var(--background-color-nav);
+    box-sizing: border-box;
 }
 
 .fa-instagram {
@@ -19,51 +16,94 @@
     color: #640ed3;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+li {
+    list-style: none;
 }
 
-.nav-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-}
-
-.nav-div .nav-div-item {
-    display: inline-block;
-    color: var(--text-color-second);
-    padding: 10px, 20px;
+.site-name {
     text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.7s ease;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: var(--link-hover);
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
 }
 
 .hamburger {
-    background-color: transparent;
-    border: 0;
-    color: var(--text-color-second);
-    cursor: pointer;
-    font-size: 20px;
     display: none;
+    cursor: pointer;
 }
 
-.hamburger:focus {
-    outline: none;
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    color: white;
+    background-color: var(--text-color-second);
 }
 
-@media (max-width: 767px) {
-    .nav-div {
-        display: none;
-    }
-
-    .nav-div.show {
-        display: flex;
-    }
-
+@media(max-width:768px) {
     .hamburger {
         display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45px);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45px);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 115px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--background-color-nav);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
     }
 }
