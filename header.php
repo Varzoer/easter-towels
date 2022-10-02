@@ -8,17 +8,15 @@
     <title>FabriUA - Великодні рушники ручної роботи</title>
     <link rel="shortcut icon" href="img/black-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://kit.fontawesome.com/e0a8f1f543.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/907ab92970.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="navbar">
             <ul class="nav-menu">
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
+                <li><a href="" class="sign-up">Sign up</a></li>
+                <li><a href="" class="log-in">Log in</a></li>
             </ul>
             <div class="hamburger-container">
                 <div class="hamburger">
@@ -35,29 +33,5 @@
                     <img src="img/logos/shopping-cart.png" alt="logo" class="shopping-cart-logo">
                 </div>
             </div>
-            <div class="profile-icon-conteiner">
-                <div class="profile-icon circle">
-                    <img src="img/logos/profile-icon.png" alt="logo" class="profile-icon-logo">
-                </div>
-            </div>
         </div>
     </header>
-    <main>
-        <div class="slider-container">
-            <div class="slide">
-                <img src="img/slide-1.png">
-            </div>
-            <div class="slide">
-                <img src="img/slide-2.png">
-            </div>
-            <div class="slide">
-                <img src="img/slide-3.png">
-            </div>
-        </div>
-    </main>
-
-    <script src="js/burger-menu.js"></script>
-    <script src="js/main-slider.js"></script>
-</body>
-
-</html>
