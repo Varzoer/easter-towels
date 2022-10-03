@@ -28,14 +28,7 @@
                 <div class="profile-desc">
                     <p>Log in for a range of opportunities</p>
                 </div>
-                <div class="dropdown-services">
-                    <button class="drop-btn">Our services</button>
-                    <div class="services" class="dropdown-content">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                </div>
+
             </ul>
             <div class="hamburger-container">
                 <div class="hamburger">
