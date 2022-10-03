@@ -15,8 +15,27 @@
     <header>
         <div class="navbar">
             <ul class="nav-menu">
-                <li><a href="" class="sign-up">Sign up</a></li>
-                <li><a href="" class="log-in">Log in</a></li>
+                <div class="login-signup-container">
+                    <div class="profile-icon-header circle">
+                        <img src="img/logos/profile-icon.png" class="profile-icon">
+                    </div>
+                    <div class="login-links">
+                        <li><a href="signup.php" class="account-item">Sign up</a></li>
+                        <p>|</p>
+                        <li><a href="login.php" class="account-item">Log in</a></li>
+                    </div>
+                </div>
+                <div class="profile-desc">
+                    <p>Log in for a range of opportunities</p>
+                </div>
+                <div class="dropdown-services">
+                    <button class="drop-btn">Our services</button>
+                    <div class="services" class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
             </ul>
             <div class="hamburger-container">
                 <div class="hamburger">
@@ -26,7 +45,7 @@
                 </div>
             </div>
             <div class="header-logo-conteiner">
-                <img src="img/logos/logo-fabri.png" alt="logo" class="header-logo">
+                <a href="index.php"><img src="img/logos/logo-fabri.png" alt="logo" class="header-logo"></a>
             </div>
             <div class="shopping-cart-conteiner">
                 <div class="shopping-cart circle">
