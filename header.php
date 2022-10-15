@@ -17,18 +17,57 @@
             <ul class="nav-menu">
                 <div class="login-signup-container">
                     <div class="profile-icon-header circle">
-                        <img src="img/logos/profile-icon.png" class="profile-icon">
+                        <li><img src="img/logos/profile-icon.png" class="profile-icon"></li>
                     </div>
                     <div class="login-links">
                         <li><a href="signup.php" class="account-item">Sign up</a></li>
-                        <p>|</p>
+                        <li>
+                            <p>|</p>
+                        </li>
                         <li><a href="login.php" class="account-item">Log in</a></li>
                     </div>
                 </div>
                 <div class="profile-desc">
-                    <p>Log in for a range of opportunities</p>
+                    <li>
+                        <p>Log in for a range of opportunities</p>
+                    </li>
                 </div>
-
+                <hr class="nav-hr">
+                <li>
+                    <div class="help-nav-container">
+                        <div class="help-links">
+                            <strong>
+                                <p class="help-nav-heading">Help heading #1</p>
+                            </strong>
+                            <a href="#" class="help-link">Help link1</a>
+                            <a href="#" class="help-link">Help link2</a>
+                            <a href="#" class="help-link">Help link3</a>
+                        </div>
+                    </div>
+                </li>
+                <hr class="nav-hr">
+                <li>
+                    <div class="help-nav-container">
+                        <div class="help-links">
+                            <strong>
+                                <p class="help-nav-heading">Help heading #1</p>
+                            </strong>
+                            <a href="#" class="help-link">Help link1</a>
+                            <a href="#" class="help-link">Help link2</a>
+                            <a href="#" class="help-link">Help link3</a>
+                        </div>
+                    </div>
+                </li>
+                <hr class="nav-hr">
+                <li>
+                    <p class="follow-us-p">Follow us</p>
+                    <div class="header-icons-container">
+                        <img src="img/logos/logo-viber.png" alt="logo" class="header-icon">
+                        <img src="img/logos/instagram-logo.png" alt="logo" class="header-icon">
+                        <img src="img/logos/telegram-logo.png" alt="logo" class="header-icon">
+                        <img src="img/logos/facebook-logo.png" alt="logo" class="header-icon">
+                    </div>
+                </li>
             </ul>
             <div class="hamburger-container">
                 <div class="hamburger">
