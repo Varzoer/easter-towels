@@ -103,82 +103,87 @@ li {
     margin-top: -23px;
 }
 
-    .shopping-cart-logo {
-        height: 35px;
-        padding-top: 10px;
-        padding-left: 8px;
-    }
+.shopping-cart-logo {
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
 
-    .shopping-cart-conteiner {
-        padding-left: 50px;
-    }
+.shopping-cart-conteiner {
+    padding-left: 50px;
+}
 
-    .hamburger-container {
-        margin-left: 5px;
-    }
+.hamburger-container {
+    margin-left: 5px;
+}
 
-    .circle {
-        width: 45px;
-        height: 45px;
-    }
+.circle {
+    width: 45px;
+    height: 45px;
+}
 
-    .header-logo {
-        padding-left: 15px;
-    }
+.header-logo {
+    padding-left: 15px;
+}
 
-    .profile-icon {
-        padding-top: 5px;
-        height: 35px;
-    }
+.profile-icon {
+    padding-top: 5px;
+    height: 35px;
+}
 
-    .login-links {
-        display: flex;
-        align-items: center;
-        column-gap: 16px;
-        padding: 8px;
-        margin-top: -25px;
-    }
+.login-links {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 8px;
+    margin-top: -25px;
+}
 
-    .nav-menu-other {
-        background-color: var(--background-color-nav-second);
-        margin-top: 25px;
-        margin-left: 25px;
-        display: flex;
-    }
+.nav-menu-other {
+    background-color: var(--background-color-nav-second);
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+}
 
-    .help-nav-heading {
-        color: #c0c0c0;
-    }
+.help-nav-heading {
+    color: #c0c0c0;
+}
 
-    .help-links {
-        text-align: left;
-    }
+.help-links {
+    text-align: left;
+}
 
-    .help-link {
-        display: flex;
-        flex-direction: column;
-        padding-top: 18px;
-        text-decoration: none;
-        color: #b3b3b3;
-        width: 25px;
-    }
+.help-link {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    text-decoration: none;
+    color: #b3b3b3;
+    width: 25px;
+}
 
-    .help-nav-container {
-        padding-top: 30px;
-        padding-left: 10px;
-    }
+.help-nav-container {
+    padding-top: 30px;
+    padding-left: 10px;
+}
 
-    .nav-hr {
-        border: none;
-        width: 100%;
-        height: 1.2px;
-        margin-top: 25px;
-        background-color: rgb(109, 125, 138);
-    }
+.nav-hr {
+    border: none;
+    width: 100%;
+    height: 1.2px;
+    margin-top: 25px;
+    background-color: rgb(109, 125, 138);
+}
 
-    .header-icon {
-        max-height: 20%;
-    }
+.header-icons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-icon {
+    height: 32px;
+}
 
 @media (max-width: 768px) {
     .hamburger {

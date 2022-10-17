@@ -62,10 +62,10 @@
                 <li>
                     <p class="follow-us-p">Follow us</p>
                     <div class="header-icons-container">
-                        <img src="img/logos/logo-viber.png" alt="logo" class="header-icon">
                         <img src="img/logos/instagram-logo.png" alt="logo" class="header-icon">
-                        <img src="img/logos/telegram-logo.png" alt="logo" class="header-icon">
+                        <img src="img/logos/logo-viber.png" alt="logo" class="header-icon">
                         <img src="img/logos/facebook-logo.png" alt="logo" class="header-icon">
+                        <img src="img/logos/telegram-logo.png" alt="logo" class="header-icon">
                     </div>
                 </li>
             </ul>
